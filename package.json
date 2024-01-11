@@ -1,0 +1,39 @@
+{
+  "name": "GPT",
+  "version": "0.0.1",
+  "description": "Alternative OpenAI api for nodejs",
+  "license": "MIT",
+  "repository": "git://github.com/indiorojo/GPTnode.git",
+  "homepage": "https://github.com/indiorojo/GPTnode",
+  "bugs": {
+    "url": "https://github.com/indiorojo/gpt/issues"
+  },
+  "author": "JG <rojii0xff@gmail.com>",
+  "keywords": [
+    "gpt",
+    "api",
+    "nodejs",
+    "ai",
+    "chatgpt"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "bcfg": "git+https://github.com/bcoin-org/bcfg.git#semver:~0.1.7",
+    "bcurl": "git+https://github.com/bcoin-org/bcurl.git#semver:^0.2.0",
+    "bfile": "git+https://github.com/bcoin-org/bfile.git#semver:~0.2.1",
+    "blgr": "git+https://github.com/bcoin-org/blgr.git#semver:~0.2.0",
+    "blru": "git+https://github.com/bcoin-org/blru.git#semver:~0.1.6",
+    "brq": "git+https://github.com/bcoin-org/brq.git#semver:~0.1.8",
+    "bs32": "git+https://github.com/bcoin-org/bs32.git#semver:=0.1.6",
+    "bsert": "git+https://github.com/chjj/bsert.git#semver:~0.0.10",
+    "buffer-map": "git+https://github.com/chjj/buffer-map.git#semver:~0.0.7",
+    "bufio": "git+https://github.com/bcoin-org/bufio.git#semver:~1.0.7",
+    "bweb": "git+https://github.com/bcoin-org/bweb.git#semver:~0.1.10",
+    "loady": "git+https://github.com/chjj/loady.git#semver:~0.0.1"
+   },
+  "devDependencies": {
+    "bmocha": "git+https://github.com/bcoin-org/bmocha.git#semver:=2.1.2"
+  }
+}
